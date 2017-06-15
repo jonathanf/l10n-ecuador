@@ -550,7 +550,7 @@ Model Reference
 
 .. currentmodule:: openerp.models
 
-.. autoclass:: openerp.models.Model
+#.. autoclass:: openerp.models.Model
 
     .. rubric:: Structural attributes
 
@@ -790,34 +790,34 @@ Basic fields
    we don't document methods as they're not useful for "external" devs)
    (because we don't support pluggable field types) (or do we?)
 
-.. autoclass:: openerp.fields.Field
+#.. autoclass:: openerp.fields.Field
 
-.. autoclass:: openerp.fields.Char
+#.. autoclass:: openerp.fields.Char
     :show-inheritance:
 
-.. autoclass:: openerp.fields.Boolean
+#.. autoclass:: openerp.fields.Boolean
     :show-inheritance:
 
-.. autoclass:: openerp.fields.Integer
+#.. autoclass:: openerp.fields.Integer
     :show-inheritance:
 
-.. autoclass:: openerp.fields.Float
+#.. autoclass:: openerp.fields.Float
     :show-inheritance:
 
-.. autoclass:: openerp.fields.Text
+#.. autoclass:: openerp.fields.Text
     :show-inheritance:
 
-.. autoclass:: openerp.fields.Selection
+#.. autoclass:: openerp.fields.Selection
     :show-inheritance:
 
-.. autoclass:: openerp.fields.Html
+#.. autoclass:: openerp.fields.Html
     :show-inheritance:
 
-.. autoclass:: openerp.fields.Date
+#.. autoclass:: openerp.fields.Date
     :show-inheritance:
     :members: today, context_today, from_string, to_string
 
-.. autoclass:: openerp.fields.Datetime
+#.. autoclass:: openerp.fields.Datetime
     :show-inheritance:
     :members: now, context_timestamp, from_string, to_string
 
@@ -826,16 +826,16 @@ Basic fields
 Relational fields
 -----------------
 
-.. autoclass:: openerp.fields.Many2one
+#.. autoclass:: openerp.fields.Many2one
     :show-inheritance:
 
-.. autoclass:: openerp.fields.One2many
+#.. autoclass:: openerp.fields.One2many
     :show-inheritance:
 
-.. autoclass:: openerp.fields.Many2many
+#.. autoclass:: openerp.fields.Many2many
     :show-inheritance:
 
-.. autoclass:: openerp.fields.Reference
+#.. autoclass:: openerp.fields.Reference
     :show-inheritance:
 
 .. _reference/orm/inheritance:
