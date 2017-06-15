@@ -45,8 +45,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'odoo'
-copyright = u'Odoo S.A.'
+project = u'l10n-ecuador'
+copyright = u'Equipo de desarrollo l10n-ecuador'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -187,8 +187,8 @@ intersphinx_mapping = {
     'django': ('https://django.readthedocs.org/en/latest/', None),
 }
 
-github_user = 'odoo'
-github_project = 'odoo'
+github_user = 'jonathanf'
+github_project = 'l10n-ecuador'
 
 # monkeypatch PHP lexer to not require <?php
 from sphinx.highlighting import lexers
