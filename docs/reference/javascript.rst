@@ -1382,8 +1382,6 @@ If everything went correctly, you should now see a list of tests with
 (hopefully) ``ok`` next to their names, closing with a report of the
 number of tests run and the time it took:
 
-#.. literalinclude:: test-report.txt
-    :language: text
 
 Congratulation, you have just performed a successful "offline" run of
 the OpenERP Web test suite.

@@ -411,8 +411,6 @@ API
 It is also possible to use the ``ir.qweb`` model directly (and extend it, and
 inherit from it):
 
-#.. automodule:: openerp.addons.base.ir.ir_qweb
-    :members: QWeb, QWebContext, FieldConverter, QwebWidget
 
 Javascript
 ==========
