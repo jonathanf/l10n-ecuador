@@ -1,9 +1,6 @@
 :banner: banners/web_service_api.jpg
 :types: api
 
-
-:code-column:
-
 ===============
 Web Service API
 ===============
