@@ -82,7 +82,7 @@ add_function_parentheses = True
 #show_authors = False
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'odoo'
+#pygments_style = 'odoo'
 
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
@@ -91,14 +91,14 @@ pygments_style = 'odoo'
 # -- Options for HTML output ---------------------------------------------------
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'odoo'
+#html_theme = 'odoo'
 
-odoo_cover_default = 'banners/installing_odoo.jpg'
-odoo_cover_external = {
-    'https://odoo.com/documentation/functional/accounting.html'   : 'banners/m_accounting.jpg',
-    'https://odoo.com/documentation/functional/double-entry.html' : 'banners/m_1.jpg',
-    'https://odoo.com/documentation/functional/valuation.html'    : 'banners/m_2.jpg',
-}
+#odoo_cover_default = 'banners/installing_odoo.jpg'
+#odoo_cover_external = {
+#    'https://odoo.com/documentation/functional/accounting.html'   : 'banners/m_accounting.jpg',
+#    'https://odoo.com/documentation/functional/double-entry.html' : 'banners/m_1.jpg',
+#    'https://odoo.com/documentation/functional/valuation.html'    : 'banners/m_2.jpg',
+#}
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -106,7 +106,7 @@ odoo_cover_external = {
 #html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = ['_extensions']
+#html_theme_path = ['_extensions']
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -127,9 +127,9 @@ html_theme_path = ['_extensions']
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+#html_static_path = ['_static']
 
-html_add_permalinks = u''
+#html_add_permalinks = u''
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
@@ -198,7 +198,7 @@ lexers['php'] = PhpLexer(startinline=True)
 def setup(app):
     app.connect('html-page-context', canonicalize)
     app.add_config_value('canonical_root', None, 'env')
-    app.add_config_value('canonical_branch', 'master', 'env')
+    app.add_config_value('canonical_branch', '9.0', 'env')
 
     app.connect('html-page-context', versionize)
     app.add_config_value('versions', '', 'env')
