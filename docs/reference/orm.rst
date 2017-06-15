@@ -548,7 +548,7 @@ Model Reference
 .. - can't get autoattribute to import docstrings, so use regular attribute
    - no autoclassmethod
 
-.. currentmodule:: openerp.models
+#.. currentmodule:: openerp.models
 
 #.. autoclass:: openerp.models.Model
 
