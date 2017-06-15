@@ -228,8 +228,7 @@ just about any SSL termination proxy, but requires the following setup:
 * enable Odoo's :option:`proxy mode <odoo.py --proxy-mode>`. This should only be enabled when Odoo is behind a reverse proxy
 * set up the SSL termination proxy (`Nginx termination example`_)
 * set up the proxying itself (`Nginx proxying example`_)
-* your SSL termination proxy should also automatically redirect non-secure
-connections to the secure port
+* your SSL termination proxy should also automatically redirect non-secure connections to the secure port
 
 .. warning::
 
