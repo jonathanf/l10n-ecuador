@@ -254,7 +254,7 @@ the login.
 
 .. rst-class:: doc-aside
 
-.. code-block:: txt
+.. code-block:: text
 
     {
         "server_version": "8.0",
@@ -347,7 +347,7 @@ Each call to ``execute_kw`` takes the following parameters:
                 new HashMap() {{ put("raise_exception", false); }}
             ));
 
-    .. code-block:: txt
+    .. code-block:: text
 
         true
 
@@ -396,7 +396,7 @@ companies for instance:
                     asList("customer", "=", true)))
             )));
 
-    .. code-block:: txt
+    .. code-block:: text
 
         [7, 18, 12, 14, 17, 19, 8, 31, 26, 16, 13, 20, 30, 22, 29, 15, 23, 28, 74]
 
@@ -444,7 +444,7 @@ available to only retrieve a subset of all matched records.
                 new HashMap() {{ put("offset", 10); put("limit", 5); }}
             )));
     
-    .. code-block:: txt
+    .. code-block:: text
     
         [13, 20, 30, 22, 29]
 
@@ -490,7 +490,7 @@ only the number of records matching the query. It takes the same
                     asList("customer", "=", true)))
             ));
     
-    .. code-block:: txt
+    .. code-block:: text
     
         19
 
@@ -567,7 +567,7 @@ which tends to be a huge amount.
             // count the number of fields fetched by default
             record.size();
     
-    .. code-block:: txt
+    .. code-block:: text
     
         121
 
@@ -607,7 +607,7 @@ Conversedly, picking only three fields deemed interesting.
                 }}
             )));
 
-    .. code-block:: txt
+    .. code-block:: text
 
         [{"comment": false, "country_id": [21, "Belgium"], "id": 7, "name": "Agrolait"}]
 
@@ -658,7 +658,7 @@ updating a record):
                 }}
             ));
 
-    .. code-block:: txt
+    .. code-block:: text
 
         {
             "ean13": {
@@ -750,7 +750,7 @@ if that list is not provided it will fetch all fields of matched records):
                 }}
             )));
 
-    .. code-block:: txt
+    .. code-block:: text
 
         [
             {
@@ -826,7 +826,7 @@ set through the mapping argument, the default value will be used.
                 asList(new HashMap() {{ put("name", "New Partner"); }})
             ));
 
-    .. code-block:: txt
+    .. code-block:: text
 
         78
 
@@ -899,7 +899,7 @@ a record).
                 asList(asList(id))
             )));
 
-    .. code-block:: txt
+    .. code-block:: text
 
         [[78, "Newer partner"]]
 
@@ -950,7 +950,7 @@ Records can be deleted in bulk by providing their ids to
                 asList(asList(asList("id", "=", 78)))
             )));
 
-    .. code-block:: txt
+    .. code-block:: text
 
         []
 
@@ -1080,7 +1080,7 @@ Provides information about Odoo models via its various fields
                     }}
             ));
 
-    .. code-block:: txt
+    .. code-block:: text
 
         {
             "create_uid": {
@@ -1149,7 +1149,7 @@ activated as actual fields on the model.
              field meta-information (defaults, onchange) can not be set either
 
 .. todo:: maybe new-API fields could store constant ``default`` in a new
-          column, maybe txt-encoded?
+          column, maybe text-encoded?
 
 .. container:: doc-aside
 
@@ -1276,7 +1276,7 @@ activated as actual fields on the model.
                     asList(asList(record_id))
             ));
 
-    .. code-block:: txt
+    .. code-block:: text
 
         [
             {
