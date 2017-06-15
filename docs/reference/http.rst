@@ -9,7 +9,7 @@ Web Controllers
 Routing
 =======
 
-.. autofunction:: openerp.http.route
+# .. autofunction:: openerp.http.route
 
 .. _reference/http/request:
 
@@ -19,18 +19,18 @@ Request
 The request object is automatically set on :data:`openerp.http.request` at
 the start of the request
 
-.. autoclass:: openerp.http.WebRequest
+#.. autoclass:: openerp.http.WebRequest
     :members:
     :member-order: bysource
-.. autoclass:: openerp.http.HttpRequest
+#.. autoclass:: openerp.http.HttpRequest
     :members:
-.. autoclass:: openerp.http.JsonRequest
+#.. autoclass:: openerp.http.JsonRequest
     :members:
 
 Response
 ========
 
-.. autoclass:: openerp.http.Response
+#.. autoclass:: openerp.http.Response
     :members:
     :member-order: bysource
 
@@ -53,7 +53,7 @@ models:
 
 Controllers are created by :ref:`inheriting <python:tut-inheritance>` from
 
-.. autoclass:: openerp.http.Controller
+#.. autoclass:: openerp.http.Controller
 
 and defining methods decorated with :func:`~openerp.http.route`::
 

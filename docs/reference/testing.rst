@@ -42,19 +42,19 @@ The test runner will simply run any test case, as described in the official
 `unittest documentation`_, but Odoo provides a number of utilities and helpers
 related to testing Odoo content (modules, mainly):
 
-.. autoclass:: openerp.tests.common.TransactionCase
+# .. autoclass:: openerp.tests.common.TransactionCase
     :members: browse_ref, ref
 
-.. autoclass:: openerp.tests.common.SingleTransactionCase
+# .. autoclass:: openerp.tests.common.SingleTransactionCase
     :members: browse_ref, ref
 
 By default, tests are run once right after the corresponding module has been
 installed. Test cases can also be configured to run after all modules have
 been installed, and not run right after the module installation:
 
-.. autofunction:: openerp.tests.common.at_install
+# .. autofunction:: openerp.tests.common.at_install
 
-.. autofunction:: openerp.tests.common.post_install
+# .. autofunction:: openerp.tests.common.post_install
 
 The most common situation is to use
 :class:`~openerp.tests.common.TransactionCase` and test a property of a model
